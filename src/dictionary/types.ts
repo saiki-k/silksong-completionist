@@ -14,6 +14,7 @@ export type QuillParsingInfo = { type: "quill"; internalId: string };
 export type QuestParsingInfo = { type: "quest"; internalId: string };
 export type SceneDataBoolParsingInfo = { type: "sceneDataBool"; internalId: [string, string] };
 export type SceneDataIntParsingInfo = { type: "sceneDataInt"; internalId: [string, string] };
+export type SceneDataIntShardsParsingInfo = { type: "sceneDataIntShards"; internalId: [string, string] };
 export type SceneDataGeoParsingInfo = { type: "sceneDataGeo"; internalId: [string, string] };
 export type SceneVistedParsingInfo = { type: "sceneVisited"; internalId: string };
 export type MementoDepositParsingInfo = { type: "mementoDeposit"; internalId: string };
@@ -32,6 +33,7 @@ export type ParsingInfo =
   | QuestParsingInfo
   | SceneDataBoolParsingInfo
   | SceneDataIntParsingInfo
+  | SceneDataIntShardsParsingInfo
   | SceneDataGeoParsingInfo
   | SceneVistedParsingInfo
   | MementoDepositParsingInfo;
