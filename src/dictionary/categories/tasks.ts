@@ -544,6 +544,7 @@ export const tasks: TrackableCategory = {
             'Bellhart: Wish from Couriers Tipp & Pill (accessible after completing "My Missing Courier" and "My Missing Brother" wishes).',
           parsingInfo: { type: "quest", internalId: "Courier Delivery Dustpens Slave" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479177",
+          onlyFoundInClassicMode: true,
         },
         {
           name: "Liquid Lacquer",
