@@ -168,6 +168,7 @@ export const materium: TrackableCategory = {
           completionDetails: 'Bellhart: Given by Tipp & Pill during the "Queen\'s Egg" wish.',
           parsingInfo: { type: "materium", internalId: "Courier Supplies Slave" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479177",
+          onlyFoundInClassicMode: true,
         },
         {
           name: "Liquid Lacquer",

@@ -1,7 +1,7 @@
 import type { TrackableCategory } from "../types";
 
-export const quests: TrackableCategory = {
-  name: "Quests",
+export const tasks: TrackableCategory = {
+  name: "Tasks",
   description: "Objectives and Wishes undertaken by Hornet throughout her journey across Pharloom.",
   sections: [
     {
@@ -544,6 +544,7 @@ export const quests: TrackableCategory = {
             'Bellhart: Wish from Couriers Tipp & Pill (accessible after completing "My Missing Courier" and "My Missing Brother" wishes).',
           parsingInfo: { type: "quest", internalId: "Courier Delivery Dustpens Slave" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479177",
+          onlyFoundInClassicMode: true,
         },
         {
           name: "Liquid Lacquer",
