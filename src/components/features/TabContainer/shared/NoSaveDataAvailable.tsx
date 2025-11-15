@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import Sherma from "@/assets/Sherma.png";
-import ShermaGif from "@/assets/Sherma.gif";
-import { cn, shuffleArray } from "@/utils";
+import ShermaGIF from "@/assets/Sherma.gif";
+import { shuffleArray } from "@/utils";
 
 type NoValidSaveVariant = "NO_SAVE_FILE" | "CORRUPTED_SAVE_DATA";
 
@@ -31,14 +31,32 @@ const VARIANT_CONFIG = {
 } as const;
 
 export function NoSaveDataAvailable({ variant = "NO_SAVE_FILE" }: NoValidSaveProps) {
-  const [isHovered, setIsHovered] = useState(false);
   const config = VARIANT_CONFIG[variant];
   const state = useRef({ "📻": [] as string[], "🎶": 0 });
+  const shermaRef = useRef<HTMLImageElement>(null);
+  const shermaGifRef = useRef<HTMLImageElement>(null);
+  const textRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
     state.current["📻"] = shuffleArray(config["🐣"]);
     state.current["🎶"] = 0;
   }, [config, variant]);
+
+  const handleMouseEnter = () => {
+    if (shermaRef.current && shermaGifRef.current && textRef.current) {
+      shermaRef.current.classList.remove("sm:block");
+      shermaGifRef.current.classList.add("sm:block");
+      textRef.current.textContent = config.hoverMessage;
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (shermaRef.current && shermaGifRef.current && textRef.current) {
+      shermaRef.current.classList.add("sm:block");
+      shermaGifRef.current.classList.remove("sm:block");
+      textRef.current.textContent = config.defaultMessage;
+    }
+  };
 
   const handleClick = () => {
     if (state.current["🎶"] >= state.current["📻"].length) {
@@ -54,20 +72,24 @@ export function NoSaveDataAvailable({ variant = "NO_SAVE_FILE" }: NoValidSavePro
       {/* Invisible hover area */}
       <div
         className="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 w-full h-32 pointer-events-auto cursor-pointer hidden sm:block"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
         onClick={handleClick}
         aria-hidden="true"
       />
       <img
-        src={!isHovered ? Sherma : ShermaGif}
+        ref={shermaRef}
+        src={Sherma}
         alt="Sherma"
-        className={cn(
-          "absolute left-1/2 top-1/2 object-contain opacity-60 drop-shadow-[0_0_60px_rgba(59,130,246,0.3)] pointer-events-none hover:opacity-80 hidden sm:block",
-          !isHovered ? "-translate-y-12 -translate-x-56 w-24 h-24" : "-translate-y-17.25 -translate-x-60 w-32 h-32"
-        )}
+        className="absolute left-1/2 top-1/2 -translate-y-12 -translate-x-56 w-24 h-24 object-contain opacity-60 drop-shadow-[0_0_60px_rgba(59,130,246,0.3)] pointer-events-none hover:opacity-80 hidden sm:block"
       />
-      <span>{!isHovered ? config.defaultMessage : config.hoverMessage}</span>
+      <img
+        ref={shermaGifRef}
+        src={ShermaGIF}
+        alt="Sherma animated"
+        className="absolute left-1/2 top-1/2 -translate-y-17.25 -translate-x-60 w-32 h-32 object-contain opacity-60 drop-shadow-[0_0_60px_rgba(59,130,246,0.3)] pointer-events-none hover:opacity-80 hidden"
+      />
+      <span ref={textRef}>{config.defaultMessage}</span>
     </div>
   );
 }
