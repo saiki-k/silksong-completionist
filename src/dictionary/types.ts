@@ -72,7 +72,8 @@ export type CategorySection = {
 
 export type TrackableCategory = {
   name: string;
-  description: string;
+  description?: string;
+  descriptionMarkup?: ReactNode | ((showSpoilers?: boolean, sectionData?: unknown) => ReactNode);
   sections: CategorySection[];
 };
 
@@ -105,7 +106,8 @@ export type NormalizedSection = {
 
 export type NormalizedCategory = {
   name: string;
-  description: string;
+  description?: string;
+  descriptionMarkup?: ReactNode | ((showSpoilers?: boolean, sectionData?: unknown) => ReactNode);
   totalPercent: number;
   totalCount: number;
   sections: Record<NormalizedSection["name"], NormalizedSection>;

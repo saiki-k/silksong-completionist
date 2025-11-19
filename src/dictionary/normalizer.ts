@@ -13,6 +13,7 @@ export function normalizeDictionary(categories: TrackableCategory[]): Normalised
     const normalizedCategory: NormalizedCategory = {
       name: category.name,
       description: category.description,
+      descriptionMarkup: category.descriptionMarkup,
       totalPercent: 0,
       totalCount: 0,
       sections: {},
