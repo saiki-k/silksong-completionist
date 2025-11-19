@@ -2,7 +2,17 @@ import type { TrackableCategory } from "../types";
 
 export const materium: TrackableCategory = {
   name: "Materium",
-  description: "Materials found throughout Hornet's journey in Pharloom.",
+  descriptionMarkup: (
+    <>
+      <span>Materials found throughout Hornet's journey in Pharloom.</span>
+      <br />
+      <br />
+      <span>
+        These are only tracked once the Materium is assembled and the items are displayed under Materium in-game;
+        regardless of when they are obtained, and regardless of whether or not they're available in your inventory.
+      </span>
+    </>
+  ),
   sections: [
     {
       items: [

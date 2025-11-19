@@ -44,7 +44,11 @@ export function GenericContent({
 
   return (
     <>
-      <CategoryHeader title={tabLabel || category.name} description={category.description} />
+      <CategoryHeader
+        title={tabLabel || category.name}
+        description={category.description}
+        descriptionMarkup={category.descriptionMarkup}
+      />
 
       <StatusBar
         inShowEverythingMode={inShowEverythingMode}
