@@ -91,7 +91,7 @@ export const fleas: TrackableCategory = {
         },
         {
           name: "Lost Flea · Exhaust Organ",
-          whichAct: 2,
+          whichAct: 1,
           completionDetails:
             "Exhaust Organ (Inside): In a room with a silk-refill spindle. Go towards left from there.",
           parsingInfo: { type: "flag", internalId: "SavedFlea_Dust_09" },

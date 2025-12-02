@@ -185,7 +185,7 @@ export const tasks: TrackableCategory = {
         },
         {
           name: "Pinmaster's Oil",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Bellhart: Wish from Pinmaster Plinney (accessible after sharpening your needle for the first time, and speaking to Pinmaster Plinney).",
           parsingInfo: { type: "quest", internalId: "A Pinsmiths Tools" },
@@ -361,9 +361,9 @@ export const tasks: TrackableCategory = {
         },
         {
           name: "Bellhart's Glory",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
-            'Bellhart: On the Wishwall (appears sometime after completing "Restoration of Bellhart" wish).',
+            'Bellhart: On the Wishwall (appears after completing "Restoration of Bellhart" wish, and completing one of several Act 2 prerequisites).',
           parsingInfo: { type: "quest", internalId: "Belltown House Mid" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478797",
         },

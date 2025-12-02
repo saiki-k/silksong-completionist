@@ -71,9 +71,9 @@ export const upgrades: TrackableCategory = {
         },
         {
           name: "Tool Pouch Upgrade #3",
-          whichAct: 2,
+          whichAct: 1,
           completionPercent: 1,
-          completionDetails: 'Greymoor (Halfway Home): Complete "Bugs of Pharloom" wish.',
+          completionDetails: 'Greymoor (Halfway Home): Complete "Bugs of Pharloom" wish (defeat 100 unique enemies).',
           parsingInfo: { type: "quest", internalId: "Journal" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479167",
         },

@@ -38,7 +38,7 @@ export const crests: TrackableCategory = {
         },
         {
           name: "Vesticrest #2 (Extra Blue Slot)",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Weavnest Atla: Talk to Eva after unlocking a total of 20 tool slots (excluding Hunter Crest slots) via Memory Lockets and acquiring new Crests. Unlocks a permanent Blue (Defense) Tool Slot.",
           parsingInfo: { type: "flag", internalId: "UnlockedExtraBlueSlot" },
