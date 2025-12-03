@@ -11,7 +11,7 @@ export const bellhome: TrackableCategory = {
       items: [
         {
           name: "Desk",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Bellhart: Sold by Frey for 380 Rosaries. Allows reviewing Relics and Psalm Cylinders without visiting Relic Seeker Scrounge or Vaultkeeper Cardinius. Combines with the Materium if both are owned.",
           parsingInfo: { type: "flag", internalId: "BelltownFurnishingDesk" },
@@ -19,7 +19,7 @@ export const bellhome: TrackableCategory = {
         },
         {
           name: "Gleamlights",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Bellhart: Sold by Frey for 320 Rosaries. Adds decorative lighting to brighten the Bellhome interior.",
           parsingInfo: { type: "flag", internalId: "BelltownFurnishingFairyLights" },
@@ -27,7 +27,7 @@ export const bellhome: TrackableCategory = {
         },
         {
           name: "Bell Lacquer",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Bellhart: Sold by Frey for 520 Rosaries. Allows Hornet to repaint her Bellhome in different colors: Red, White, Black, Bronze, Blue, or Chrome (replaces White in Steel Soul Mode). This purchase is irreversible once made.",
           parsingInfo: { type: "flag", internalId: "BelltownHousePaintComplete" },
@@ -35,7 +35,7 @@ export const bellhome: TrackableCategory = {
         },
         {
           name: "Personal Spa",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             "Bellhart: Sold by Frey for 1100 Rosaries. Installs a spa in the upper area of the Bellhome for regenerating Health and Silk. Adds a platform above the bed for easier access.",
           parsingInfo: { type: "flag", internalId: "BelltownFurnishingSpa" },

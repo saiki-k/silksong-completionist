@@ -75,7 +75,7 @@ export const mappingSupplies: TrackableCategory = {
         },
         {
           name: "Dark Marker",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             'Sold by Shakra for 90 Rosaries. In Shakra\'s words: "This dark-shell material is cold to the touch, and more resilient than it looks."',
           parsingInfo: { type: "flag", internalId: "hasMarker_d" },
@@ -83,7 +83,7 @@ export const mappingSupplies: TrackableCategory = {
         },
         {
           name: "Bronze Marker",
-          whichAct: 1,
+          whichAct: 2,
           completionDetails:
             'Sold by Shakra for 120 Rosaries. In Shakra\'s words: "These I have fashioned from the husks of old bells. A hard task to make, so the cost reflects the extra effort."',
           parsingInfo: { type: "flag", internalId: "hasMarker_e" },
