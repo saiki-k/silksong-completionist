@@ -86,9 +86,18 @@ function computeTabData(
       let displayValue = "";
       let detailedValue: string | undefined;
 
+      const gameModeMap: Record<number | string, string> = {
+        0: "Classic",
+        1: "Steel Soul",
+        2: "Steel Soul (Dead)",
+        On: "Steel Soul",
+        Dead: "Steel Soul (Dead)",
+        default: "Steel Soul (Bugged · Allows Death)",
+      };
+
       switch (item.name) {
         case "Game Mode":
-          displayValue = rawValue === 1 ? "Steel Soul" : rawValue === 0 ? "Classic" : "";
+          displayValue = gameModeMap[rawValue as keyof typeof gameModeMap] ?? gameModeMap["default"];
           break;
 
         case "Playtime":
