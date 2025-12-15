@@ -20,7 +20,7 @@ export const silkeaters: TrackableCategory = {
         {
           name: "Silkeater · Greymoor",
           whichAct: 1,
-          completionDetails: "Greymoor: An the top of the tower, west of Halfway Home.",
+          completionDetails: "Greymoor: At the very top of the tower, west of Halfway Home.",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_04", "Silk Grub Large Cocoon"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478283",
         },
