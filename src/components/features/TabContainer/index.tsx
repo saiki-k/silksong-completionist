@@ -92,7 +92,7 @@ function computeTabData(
         2: "Steel Soul (Dead)",
         On: "Steel Soul",
         Dead: "Steel Soul (Dead)",
-        default: "Steel Soul (Bugged · Allows Death)",
+        default: "Steel Soul (Bugged)",
       };
 
       switch (item.name) {
@@ -102,10 +102,8 @@ function computeTabData(
 
         case "Playtime":
           if (typeof rawValue === "number") {
-            const totalHours = Math.floor(rawValue / 3600);
-            displayValue = `~${totalHours} hours`;
-            const time = formatSecondsToHMS(rawValue);
-            detailedValue = time.replace(/(\d+):(\d+):(\d+)/, "$1h $2m $3s");
+            const totalTime = formatSecondsToHMS(rawValue);
+            displayValue = totalTime.replace(/(\d+):(\d+):(\d+)/, "$1h $2m $3s");
           }
           break;
 
