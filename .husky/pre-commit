@@ -9,6 +9,10 @@ fi
 
 echo "✅ ESLint passed!"
 
+echo ""
+echo "***"
+echo ""
+
 echo "🎨 Checking code formatting..."
 npm run format:check
 if [ $? -ne 0 ]; then
@@ -17,4 +21,9 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "✅ Code formatting is correct!"
+
+echo ""
+echo "***"
+echo ""
+
 echo "🎉 All checks passed! Proceeding with the commit..."

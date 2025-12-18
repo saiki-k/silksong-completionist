@@ -14,7 +14,7 @@ export function StatsContent({ tabLabel, computedData }: TabContentProps): React
       <CategoryHeader title={tabLabel || category?.name || "Stats"} description={category?.description || ""} />
 
       <div className="bg-gray-900/50 border-2 border-gray-600/30 rounded-b-lg border-t-0 p-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {statsItems.map((item, index) => (
             <div
               key={index}

@@ -86,17 +86,24 @@ function computeTabData(
       let displayValue = "";
       let detailedValue: string | undefined;
 
+      const gameModeMap: Record<number | string, string> = {
+        0: "Classic",
+        1: "Steel Soul",
+        2: "Steel Soul (Dead)",
+        On: "Steel Soul",
+        Dead: "Steel Soul (Dead)",
+        default: "Steel Soul (Bugged)",
+      };
+
       switch (item.name) {
         case "Game Mode":
-          displayValue = rawValue === 1 ? "Steel Soul" : rawValue === 0 ? "Classic" : "";
+          displayValue = gameModeMap[rawValue as keyof typeof gameModeMap] ?? gameModeMap["default"];
           break;
 
         case "Playtime":
           if (typeof rawValue === "number") {
-            const totalHours = Math.floor(rawValue / 3600);
-            displayValue = `~${totalHours} hours`;
-            const time = formatSecondsToHMS(rawValue);
-            detailedValue = time.replace(/(\d+):(\d+):(\d+)/, "$1h $2m $3s");
+            const totalTime = formatSecondsToHMS(rawValue);
+            displayValue = totalTime.replace(/(\d+):(\d+):(\d+)/, "$1h $2m $3s");
           }
           break;
 

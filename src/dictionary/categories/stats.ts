@@ -14,6 +14,13 @@ export const stats: TrackableCategory = {
           mapLink: "",
         },
         {
+          name: "Game Mode",
+          whichAct: 0,
+          completionDetails: "",
+          parsingInfo: { type: "flagReturn", internalId: "permadeathMode" },
+          mapLink: "",
+        },
+        {
           name: "Rosaries",
           whichAct: 0,
           completionDetails: "",
@@ -25,13 +32,6 @@ export const stats: TrackableCategory = {
           whichAct: 0,
           completionDetails: "",
           parsingInfo: { type: "flagReturn", internalId: "ShellShards" },
-          mapLink: "",
-        },
-        {
-          name: "Game Mode",
-          whichAct: 0,
-          completionDetails: "",
-          parsingInfo: { type: "flagReturn", internalId: "permadeathMode" },
           mapLink: "",
         },
       ],
