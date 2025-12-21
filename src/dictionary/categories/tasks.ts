@@ -541,7 +541,7 @@ export const tasks: TrackableCategory = {
           name: "Queen's Egg",
           whichAct: 2,
           completionDetails:
-            'Bellhart: Wish from Couriers Tipp & Pill (accessible after completing "My Missing Courier" and "My Missing Brother" wishes).',
+            "Bellhart: Wish from Couriers Tipp & Pill (accessible after obtaining a Silkeater from Styx).",
           parsingInfo: { type: "quest", internalId: "Courier Delivery Dustpens Slave" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479177",
           onlyFoundInClassicMode: true,
@@ -550,7 +550,7 @@ export const tasks: TrackableCategory = {
           name: "Liquid Lacquer",
           whichAct: 2,
           completionDetails:
-            'Bellhart: Wish from Couriers Tipp & Pill (accessible after completing "My Missing Courier" and "My Missing Brother" wishes).',
+            "Bellhart: Wish from Couriers Tipp & Pill (accessible after completing the Delivery Wish Queen's Egg or by being in Steel Soul Mode, and also after obtaining the Faydown Cloak, completing at least one delivery, and playing the Threefold Melody).",
           parsingInfo: { type: "quest", internalId: "Courier Delivery Mask Maker" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479199",
         },
