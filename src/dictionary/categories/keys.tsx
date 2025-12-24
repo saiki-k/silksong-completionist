@@ -10,7 +10,6 @@ export const keys: TrackableCategory = {
       // NOTE: We can probably use the save file to track (specific scenes/bools) if these locks are unlocked. Not today!
       descriptionMarkup: (showSpoilers?: boolean) => <SimpleLocksDescription showSpoilers={showSpoilers} />,
       items: [
-        // TODO: Grindle sells this item later, if it is not purchased until ACT 3. The internalId would probably not change, because we see Grindle's mates looting this location. However, adding a note here to verify this later...
         {
           name: "Simple Key #1",
           whichAct: 1,

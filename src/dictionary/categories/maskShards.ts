@@ -8,7 +8,6 @@ export const maskShards: TrackableCategory = {
       name: "Mask Shards",
       description: "Each Mask Shard counts 0.25% towards completion.",
       items: [
-        // TODO: Grindle sells this item later, if it is not purchased until ACT 3. The internalId would probably not change, because we see Grindle's mates looting this location. However, adding a note here to verify this later...
         {
           name: "Mask Shard #1",
           whichAct: 1,
