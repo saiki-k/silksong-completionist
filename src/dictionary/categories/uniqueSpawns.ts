@@ -354,10 +354,11 @@ export const uniqueSpawns: TrackableCategory = {
           parsingInfo: { type: "sceneDataBool", internalId: ["Under_18", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479956",
         },
+        // Shellwood (Nyleth's domain)
         {
           name: "Void Mass #33",
           whichAct: 3,
-          completionDetails: "Underworks",
+          completionDetails: "Shellwood: Right before entering Seth's arena (accessible through Grand Gate).",
           parsingInfo: { type: "sceneDataBool", internalId: ["Under_27", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479734",
         },
