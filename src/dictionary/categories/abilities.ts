@@ -148,12 +148,13 @@ export const abilities: TrackableCategory = {
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478199",
         },
         {
-          name: "Needle Strike",
-          whichAct: 1,
+          name: "Sylphsong",
+          whichAct: 2,
           completionPercent: 1,
-          completionDetails: "Blasted Steps (Pinstress' Home)",
-          parsingInfo: { type: "flag", internalId: "hasChargeSlash" },
-          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478510",
+          completionDetails:
+            "Weavnest Atla: Bind Eva after unlocking a total of 32 tool slots (excluding Hunter Crest slots) via Memory Lockets and acquiring new Crests.",
+          parsingInfo: { type: "flag", internalId: "HasBoundCrestUpgrader" },
+          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479654",
         },
         {
           name: "Silk Soar (Super Jump)",
@@ -166,17 +167,16 @@ export const abilities: TrackableCategory = {
       ],
     },
     {
-      name: "Unique Abilities",
+      name: "Other Abilities",
       description: "These count 1% towards completion.",
       items: [
         {
-          name: "Sylphsong",
-          whichAct: 2,
+          name: "Needle Strike",
+          whichAct: 1,
           completionPercent: 1,
-          completionDetails:
-            "Weavnest Atla: Bind Eva after unlocking a total of 32 tool slots (excluding Hunter Crest slots) via Memory Lockets and acquiring new Crests.",
-          parsingInfo: { type: "flag", internalId: "HasBoundCrestUpgrader" },
-          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479654",
+          completionDetails: "Blasted Steps (Pinstress' Home)",
+          parsingInfo: { type: "flag", internalId: "hasChargeSlash" },
+          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=478510",
         },
         {
           name: "Everbloom",

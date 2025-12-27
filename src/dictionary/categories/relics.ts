@@ -92,7 +92,7 @@ export const relics: TrackableCategory = {
         },
         {
           name: "Choral Commandment · Whiteward (#2)",
-          whichAct: 2,
+          whichAct: 3,
           completionDetails:
             "Whiteward: At the end of a room above the hidden passage, easiest to reach via Silk Soar.",
           parsingInfo: { type: "relic", internalId: "Seal Chit Silk Siphon" },
