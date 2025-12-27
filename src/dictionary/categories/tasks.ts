@@ -256,7 +256,7 @@ export const tasks: TrackableCategory = {
           name: "Fatal Resolve",
           whichAct: 3,
           completionDetails:
-            "Songclave: On the Wishwall (appears after returning from The Abyss, is also accessible by visiting Pinstress' Home).",
+            "Bellhart: On the Wishwall (appears after returning from The Abyss, or directly from a note left by Pinstress at her home in the Blasted Steps.).",
           parsingInfo: { type: "quest", internalId: "Pinstress Battle" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479443",
         },
@@ -264,7 +264,7 @@ export const tasks: TrackableCategory = {
           name: "Hero's Call",
           whichAct: 3,
           completionDetails:
-            "Bellhart: On the Wishwall (appears after encountering a couple of Garmond and Zaza fight scenes).",
+            "Bellhart: On the Wishwall (appears after encountering a couple of Garmond and Zaza fight scenes in ACT 3).",
           parsingInfo: { type: "quest", internalId: "Garmond Black Threaded" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479445",
         },
@@ -278,7 +278,8 @@ export const tasks: TrackableCategory = {
         {
           name: "Pain, Anguish, and Misery",
           whichAct: 3,
-          completionDetails: "Songclave: On the Wishwall.",
+          completionDetails:
+            "Songclave: On the Wishwall (appears after obtaining Claw Mirror from Trobbio, and obtaining Silk Soar).",
           parsingInfo: { type: "quest", internalId: "Tormented Trobbio" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479370",
         },
@@ -487,14 +488,16 @@ export const tasks: TrackableCategory = {
         {
           name: "Dark Hearts",
           whichAct: 3,
-          completionDetails: "Bellhart: On the Wishwall.",
+          completionDetails:
+            "Bellhart: On the Wishwall (appears after confronting the Caretaker and his family in the Ruined Chapel beside Bone Bottom).",
           parsingInfo: { type: "quest", internalId: "Destroy Thread Cores" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479448",
         },
         {
           name: "The Hidden Hunter",
           whichAct: 3,
-          completionDetails: "Bellhart: On the Wishwall.",
+          completionDetails:
+            "Bellhart: On the Wishwall (appears after obtaining the Silk Soar ability and meeting Skarrsinger Karmelita in Far Fields).",
           parsingInfo: { type: "quest", internalId: "Ant Trapper" },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479446",
         },
