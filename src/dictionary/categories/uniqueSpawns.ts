@@ -118,9 +118,9 @@ export const uniqueSpawns: TrackableCategory = {
       name: "Void Masses",
       description: "Clumps of creatures bound together by void, found all over Pharloom after entering ACT 3.",
       items: [
-        // Mosshome
+        // Moss Grotto
         {
-          name: "Void Mass #1",
+          name: "Void Mass · Moss Grotto",
           whichAct: 3,
           completionDetails: "Moss Grotto (Mosshome)",
           parsingInfo: { type: "sceneDataBool", internalId: ["Mosstown_02", "Black_Thread_Core"] },
@@ -128,7 +128,7 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Weavenest Atla
         {
-          name: "Void Mass #2",
+          name: "Void Mass · Weavenest Atla",
           whichAct: 3,
           completionDetails: "Weavenest Atla",
           parsingInfo: { type: "sceneDataBool", internalId: ["Weave_03", "Black_Thread_Core"] },
@@ -136,28 +136,28 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // The Marrow
         {
-          name: "Void Mass #3",
+          name: "Void Mass · The Marrow #1",
           whichAct: 3,
           completionDetails: "The Marrow",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_02", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480158",
         },
         {
-          name: "Void Mass #4",
+          name: "Void Mass · The Marrow #2",
           whichAct: 3,
           completionDetails: "The Marrow",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_04", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479997",
         },
         {
-          name: "Void Mass #5",
+          name: "Void Mass · The Marrow #3",
           whichAct: 3,
           completionDetails: "The Marrow",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_07", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479620",
         },
         {
-          name: "Void Mass #6",
+          name: "Void Mass · The Marrow #4",
           whichAct: 3,
           completionDetails: "The Marrow",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_09", "Black_Thread_Core"] },
@@ -165,29 +165,37 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Deep Docks
         {
-          name: "Void Mass #7",
+          name: "Void Mass · Deep Docks #1",
           whichAct: 3,
           completionDetails: "Deep Docks",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_East_03", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480157",
         },
         {
-          name: "Void Mass #8",
+          name: "Void Mass · Deep Docks #2",
           whichAct: 3,
           completionDetails: "Deep Docks",
           parsingInfo: { type: "sceneDataBool", internalId: ["Dock_04", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479458",
         },
+        {
+          name: "Void Mass · Deep Docks #3", // Classic Mode only
+          whichAct: 3,
+          completionDetails: "Deep Docks",
+          parsingInfo: { type: "sceneDataBool", internalId: ["Dock_03c", "Black_Thread_Core"] },
+          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480823",
+          onlyFoundInClassicMode: true,
+        },
         // Hunter's March
         {
-          name: "Void Mass #9",
+          name: "Void Mass · Hunter's March #1",
           whichAct: 3,
           completionDetails: "Hunter's March",
           parsingInfo: { type: "sceneDataBool", internalId: ["Ant_04_left", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479533",
         },
         {
-          name: "Void Mass #10",
+          name: "Void Mass · Hunter's March #2",
           whichAct: 3,
           completionDetails: "Hunter's March",
           parsingInfo: { type: "sceneDataBool", internalId: ["Ant_05b", "Black_Thread_Core"] },
@@ -195,28 +203,28 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Far Fields
         {
-          name: "Void Mass #11",
+          name: "Void Mass · Far Fields #1",
           whichAct: 3,
           completionDetails: "Far Fields",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_East_02b", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479537",
         },
         {
-          name: "Void Mass #12",
+          name: "Void Mass · Far Fields #2",
           whichAct: 3,
           completionDetails: "Far Fields",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_East_05", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479536",
         },
         {
-          name: "Void Mass #13",
+          name: "Void Mass · Far Fields #3",
           whichAct: 3,
           completionDetails: "Far Fields",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_East_17", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480172",
         },
         {
-          name: "Void Mass #14",
+          name: "Void Mass · Far Fields #4",
           whichAct: 3,
           completionDetails: "Far Fields",
           parsingInfo: { type: "sceneDataBool", internalId: ["Bone_East_26", "Black_Thread_Core_Citadel"] },
@@ -224,35 +232,35 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Greymoor
         {
-          name: "Void Mass #15",
+          name: "Void Mass · Greymoor #1",
           whichAct: 3,
           completionDetails: "Greymoor",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_02", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479532",
         },
         {
-          name: "Void Mass #16",
+          name: "Void Mass · Greymoor #2",
           whichAct: 3,
           completionDetails: "Greymoor",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_07", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479541",
         },
         {
-          name: "Void Mass #17",
+          name: "Void Mass · Greymoor #3",
           whichAct: 3,
           completionDetails: "Greymoor",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_11", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479540",
         },
         {
-          name: "Void Mass #18",
+          name: "Void Mass · Greymoor #4",
           whichAct: 3,
           completionDetails: "Greymoor",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_12", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480267",
         },
         {
-          name: "Void Mass #19",
+          name: "Void Mass · Greymoor #5",
           whichAct: 3,
           completionDetails: "Greymoor",
           parsingInfo: { type: "sceneDataBool", internalId: ["Greymoor_16", "Black_Thread_Core"] },
@@ -260,57 +268,64 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Shellwood
         {
-          name: "Void Mass #20",
+          name: "Void Mass · Shellwood #1",
           whichAct: 3,
           completionDetails: "Shellwood",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shellwood_01b", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480137",
         },
         {
-          name: "Void Mass #21",
+          name: "Void Mass · Shellwood #2",
           whichAct: 3,
           completionDetails: "Shellwood",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shellwood_02", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479910",
         },
         {
-          name: "Void Mass #22",
+          name: "Void Mass · Shellwood #3",
           whichAct: 3,
           completionDetails: "Shellwood",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shellwood_04b", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479656",
         },
         {
-          name: "Void Mass #23",
+          name: "Void Mass · Shellwood #4",
           whichAct: 3,
           completionDetails: "Shellwood",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shellwood_26", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480197",
         },
         {
-          name: "Void Mass #24",
+          name: "Void Mass · Shellwood #5",
           whichAct: 3,
           completionDetails: "Shellwood",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shellwood_15", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480161",
         },
+        {
+          name: "Void Mass · Shellwood #6", // Shellwood (Near Nyleth's Shrine)
+          whichAct: 3,
+          completionDetails: "Shellwood: Right before entering Seth's arena (accessible through Grand Gate).",
+          parsingInfo: { type: "sceneDataBool", internalId: ["Under_27", "Black_Thread_Core"] },
+          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479734",
+        },
         // Blasted Steps
         {
-          name: "Void Mass #25",
+          name: "Void Mass · Blasted Steps #1",
           whichAct: 3,
           completionDetails: "Blasted Steps",
           parsingInfo: { type: "sceneDataBool", internalId: ["Coral_11", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479455",
         },
         {
-          name: "Void Mass #26",
+          name: "Void Mass · Blasted Steps #2",
           whichAct: 3,
           completionDetails: "Blasted Steps",
           parsingInfo: { type: "sceneDataBool", internalId: ["Coral_12", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479732",
         },
         {
-          name: "Void Mass #27",
+          name: "Void Mass · Blasted Steps #3",
           whichAct: 3,
           completionDetails: "Blasted Steps",
           parsingInfo: { type: "sceneDataBool", internalId: ["Coral_32", "Black_Thread_Core"] },
@@ -318,15 +333,23 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Sinner's Road
         {
-          name: "Void Mass #28",
+          name: "Void Mass · Sinner's Road",
           whichAct: 3,
           completionDetails: "Sinner's Road",
           parsingInfo: { type: "sceneDataBool", internalId: ["Dust_03", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480623",
         },
+        {
+          name: "Void Mass · Styx's Nest #1 & #2", // Classic Mode only
+          whichAct: 3,
+          completionDetails: "Sinner's Road (Styx's Nest)",
+          parsingInfo: { type: "flag", internalId: "silkFarmAbyssCoresCleared" },
+          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480469",
+          onlyFoundInClassicMode: true,
+        },
         // Bilewater
         {
-          name: "Void Mass #29",
+          name: "Void Mass · Bilewater",
           whichAct: 3,
           completionDetails: "Bilewater",
           parsingInfo: { type: "sceneDataBool", internalId: ["Shadow_05", "Black_Thread_Core"] },
@@ -334,72 +357,64 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Underworks
         {
-          name: "Void Mass #30",
+          name: "Void Mass · Underworks #1",
           whichAct: 3,
           completionDetails: "Underworks",
           parsingInfo: { type: "sceneDataBool", internalId: ["Under_02", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479745",
         },
         {
-          name: "Void Mass #31",
+          name: "Void Mass · Underworks #2",
           whichAct: 3,
           completionDetails: "Underworks",
           parsingInfo: { type: "sceneDataBool", internalId: ["Under_05", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479838",
         },
         {
-          name: "Void Mass #32",
+          name: "Void Mass · Underworks #3",
           whichAct: 3,
           completionDetails: "Underworks",
           parsingInfo: { type: "sceneDataBool", internalId: ["Under_18", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479956",
         },
-        // Shellwood (Nyleth's domain)
-        {
-          name: "Void Mass #33",
-          whichAct: 3,
-          completionDetails: "Shellwood: Right before entering Seth's arena (accessible through Grand Gate).",
-          parsingInfo: { type: "sceneDataBool", internalId: ["Under_27", "Black_Thread_Core"] },
-          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479734",
-        },
         // Choral Chambers
         {
-          name: "Void Mass #34",
+          name: "Void Mass · Choral Chambers #1",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_01", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479851",
         },
         {
-          name: "Void Mass #35",
+          name: "Void Mass · Choral Chambers #2",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_04", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479581",
         },
         {
-          name: "Void Mass #36",
+          name: "Void Mass · Choral Chambers #3",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_05", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479457",
         },
         {
-          name: "Void Mass #37",
+          name: "Void Mass · Choral Chambers #4",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_15", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479519",
         },
         {
-          name: "Void Mass #38",
+          name: "Void Mass · Choral Chambers #5",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_17", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479538",
         },
         {
-          name: "Void Mass #39",
+          name: "Void Mass · Choral Chambers #6",
           whichAct: 3,
           completionDetails: "Choral Chambers",
           parsingInfo: { type: "sceneDataBool", internalId: ["Song_27", "Black_Thread_Core_Citadel"] },
@@ -407,21 +422,21 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Whispering Vaults
         {
-          name: "Void Mass #40",
+          name: "Void Mass · Whispering Vaults #1",
           whichAct: 3,
           completionDetails: "Whispering Vaults",
           parsingInfo: { type: "sceneDataBool", internalId: ["Library_04", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479584",
         },
         {
-          name: "Void Mass #41",
+          name: "Void Mass · Whispering Vaults #2",
           whichAct: 3,
           completionDetails: "Whispering Vaults",
           parsingInfo: { type: "sceneDataBool", internalId: ["Library_04", "Black_Thread_Core_Citadel (1)"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479531",
         },
         {
-          name: "Void Mass #42",
+          name: "Void Mass · Whispering Vaults #3",
           whichAct: 3,
           completionDetails: "Whispering Vaults",
           parsingInfo: { type: "sceneDataBool", internalId: ["Library_06", "Black_Thread_Core_Citadel"] },
@@ -429,7 +444,7 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // Cogwork Core
         {
-          name: "Void Mass #43",
+          name: "Void Mass · Cogwork Core",
           whichAct: 3,
           completionDetails: "Cogwork Core",
           parsingInfo: { type: "sceneDataBool", internalId: ["Cog_04", "Black_Thread_Core"] },
@@ -437,35 +452,18 @@ export const uniqueSpawns: TrackableCategory = {
         },
         // High Halls
         {
-          name: "Void Mass #44",
+          name: "Void Mass · High Halls #1",
           whichAct: 3,
           completionDetails: "High Halls",
           parsingInfo: { type: "sceneDataBool", internalId: ["Hang_03", "Black_Thread_Core_Citadel"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479539",
         },
         {
-          name: "Void Mass #45",
+          name: "Void Mass · High Halls #2",
           whichAct: 3,
           completionDetails: "High Halls",
           parsingInfo: { type: "sceneDataBool", internalId: ["Hang_13", "Black_Thread_Core"] },
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479674",
-        },
-        // Classic Mode only
-        {
-          name: "Void Mass #46",
-          whichAct: 3,
-          completionDetails: "Deep Docks",
-          parsingInfo: { type: "sceneDataBool", internalId: ["Dock_03c", "Black_Thread_Core"] },
-          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480823",
-          onlyFoundInClassicMode: true,
-        },
-        {
-          name: "Void Mass #47 & #48",
-          whichAct: 3,
-          completionDetails: "Sinner's Road",
-          parsingInfo: { type: "flag", internalId: "silkFarmAbyssCoresCleared" },
-          mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=480469",
-          onlyFoundInClassicMode: true,
         },
       ],
     },
