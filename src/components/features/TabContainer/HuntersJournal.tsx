@@ -42,8 +42,8 @@ export function HuntersJournalContent({
       rowTitle={(item: NormalizedItem) => {
         if (item.additionalMeta?.completesEntries && item.additionalMeta.completesEntries.length > 0) {
           return `This entry also completes: ${item.additionalMeta.completesEntries.join(", ")}`;
-        } else if (item.additionalMeta?.completedByEntry) {
-          return `This entry is also completed by completing ${item.additionalMeta.completedByEntry}`;
+        } else if (item.additionalMeta?.completedByEntry || item.additionalMeta?.completedBy) {
+          return `This entry is also completed by completing ${item.additionalMeta.completedByEntry ?? item.additionalMeta.completedBy}`;
         }
         return undefined;
       }}
