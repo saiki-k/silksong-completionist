@@ -54,7 +54,7 @@ export const mementos: TrackableCategory = {
           mapLink: "https://mapgenie.io/hollow-knight-silksong/maps/pharloom?locationIds=479634",
         },
         {
-          name: "Seth Memento",
+          name: "Guardian's Memento",
           whichAct: 3,
           completionDetails:
             "Putrified Ducts (Fleatopia): Talk to Seth after beating all of his scores in all the Flea Games.",

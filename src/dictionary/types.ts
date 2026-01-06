@@ -60,6 +60,7 @@ export type CategoryItem = {
     }>;
     completesEntries?: string[];
     completedByEntry?: string;
+    completedBy?: string;
   };
   onlyFoundInClassicMode?: boolean;
   onlyFoundInSteelSoulMode?: boolean;

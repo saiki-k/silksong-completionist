@@ -3974,6 +3974,7 @@ export const huntersJournal: TrackableCategory = {
                 damageModifiers: [1, 1, 1, 1, 1],
               },
             ],
+            completedBy: "Red Memory",
           },
         },
         {

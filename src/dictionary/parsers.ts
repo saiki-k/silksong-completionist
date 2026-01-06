@@ -102,6 +102,10 @@ export function isItemUnlockedInPlayerSave(
     },
 
     materium: (materiumName: string) => {
+      if (!playerData["ConstructedMaterium"]) {
+        return { unlocked: false };
+      }
+
       const materium = (playerData as any)?.MateriumCollected?.savedData || [];
       const foundMaterium = materium.find((m: any) => m?.Name === materiumName);
       return { unlocked: !!foundMaterium?.Data?.IsCollected || !!foundMaterium?.Data?.HasSeenInRelicBoard };

@@ -8,8 +8,8 @@ export const materium: TrackableCategory = {
       <br />
       <br />
       <span>
-        These are only tracked once the Materium is assembled and the items are displayed under Materium in-game;
-        regardless of when they are obtained, and regardless of whether or not they're available in your inventory.
+        Materium items are only tracked once the Materium is assembled in Bellhome, and they are verified under Materium
+        in-game; regardless of when they are obtained, and regardless of whether or not they're available in inventory.
       </span>
     </>
   ),
